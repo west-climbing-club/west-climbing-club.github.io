@@ -48,17 +48,19 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-7">
-                    <div>
-                        <a href="#" class="flex items-center py-4 px-2">
-                            <i class="fas fa-mountain text-green-600 text-3xl mr-2"></i>
-                            <span class="font-semibold text-green-600 text-lg">山岳部</span>
-                        </a>
-                    </div>
-                    <div class="hidden md:flex items-center space-x-1">
-                        <a href="#about" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">部活紹介</a>
-                        <a href="#features" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">ここが良い</a>
-                        <a href="#schedule" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">活動内容</a>
-                        <a href="#members" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">部員構成</a>
+                <div>
+                    <a href="#" class="flex items-center py-4 px-2">
+                        <i class="fas fa-mountain text-green-600 text-3xl mr-2"></i>
+                        <span class="font-semibold text-green-600 text-lg">山岳部</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#about" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">部活紹介</a>
+                    <a href="#features" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">ここが良い</a>
+                    <a href="#schedule" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">活動内容</a>
+                    <a href="#members" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">部員構成</a>
+                    <a href="#meeting-place" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">集合場所</a>
+                    <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-green-600 transition duration-300">お問い合わせ</a>
                     </div>
                 </div>
                 <div class="hidden md:flex items-center space-x-3">
@@ -77,6 +79,8 @@
                 <li><a href="#features" class="block text-sm px-2 py-4 hover:bg-green-600 hover:text-white transition duration-300">ここが良い</a></li>
                 <li><a href="#schedule" class="block text-sm px-2 py-4 hover:bg-green-600 hover:text-white transition duration-300">活動内容</a></li>
                 <li><a href="#members" class="block text-sm px-2 py-4 hover:bg-green-600 hover:text-white transition duration-300">部員構成</a></li>
+                <li><a href="#meeting-place" class="block text-sm px-2 py-4 hover:bg-green-600 hover:text-white transition duration-300">集合場所</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-600 hover:text-white transition duration-300">お問い合わせ</a></li>
             </ul>
         </div>
     </nav>
@@ -353,7 +357,7 @@
                                 <i class="fas fa-user"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-800">3年生 戸井津くん</h4>
+                                <h4 class="font-bold text-gray-800">3年生 戸井津聡太くん</h4>
                                 <p class="text-sm text-gray-500">部長</p>
                             </div>
                         </div>
@@ -399,6 +403,27 @@
         </div>
     </section>
 
+    <!-- 集合場所 Section -->
+    <section id="meeting-place" class="py-20 bg-green-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">集合場所</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto mb-6"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Google Map -->
+                <div class="bg-white p-4 rounded-lg shadow-lg floating-card">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d241.28202861854146!2d141.29901626367484!3d43.0620953533889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sja!2sjp!4v1744185630281!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <!-- Photo -->
+                <div class="bg-white p-4 rounded-lg shadow-lg floating-card overflow-hidden">
+                    <img src="images/basyo.jpg" alt="集合場所の写真" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- お問い合わせ Section -->
     <section id="contact" class="py-20 bg-green-50">
